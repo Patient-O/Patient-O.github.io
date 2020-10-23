@@ -52,6 +52,13 @@ h5{
     
 }
 
+.heart{
+    z-index: -10;
+    position: fixed;
+    padding-top: 5%;
+    padding-left: 80%;
+}
+
 a:link {
     
     color: orangered;
@@ -77,6 +84,9 @@ a:visited{
   float: left;
   width: 25%;
     cursor: pointer;
+    padding-left: 5%;
+    padding-top: 4%;
+  
     
     
    
