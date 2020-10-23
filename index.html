@@ -16,7 +16,16 @@ function openModal() {
 function closeModal() {
   document.getElementById("myModal").style.display = "none";
 }
+            
+function hideStuff() {
+  document.getElementById("Main").style.display = "none";
+}
 
+function showStuff() {
+  document.getElementById("Main").style.display = "block";
+}
+            
+            
 var slideIndex = 1;S
 showSlides(slideIndex);
 
@@ -52,10 +61,10 @@ function showSlides(n) {
     </head>
     
     <body>
-        <div tabindex = "-1" >
-        <h1> Patient 'O' </h1>   </div>
+        <div id = "Main">
+        <h1> Patient 'O' </h1>   
         
-        <div tabindex = "-1" >
+        
         <h2> We came up with the idea for this zine back in
 March, on one of our nightly phone calls from
 self-isolation within our respective homes.
@@ -88,18 +97,18 @@ Feminist Pornographic Collective Consciousness for making this zine happen, and 
             <h4>xoxo Hyunjee Nicole Kim and Dana Kopel </h4>
             <h3>  *Feel free to send us love at patient.oh@gmail.com </h3>
             <h5>  All proceeds from sales of physical copies (avail. Fall 2020) will be donated to the <a href = "https://www.gofundme.com/f/z6w8v5"> Emergency COVID Relief for Sex Workers in New York Fund.</a> </h5> 
-            </div>
-            
+        
+           
           
         
         
         <!-- Images used to open the lightbox -->
 <div class="row">
   <div class="column">
-    <img src="Final/Patient%20O.png" alt="A manila folder with the words Patient O printed on it in bold black letters." style="width:80%" onclick="openModal();currentSlide(1)" class="hover-shadow">
+    <img src="Final/Patient%20O.png" alt="A manila folder with the words Patient O printed on it in bold black letters." style="width:80%" onclick="openModal();hideStuff();currentSlide(1)"  class="hover-shadow">
   </div>
   <div class="column">
-    <img src="Final/Patient%20O2.png" alt="Page left: In this drawing, between a pair of spreadeagled thighs, a hand encircles an erect penis while a green pickle is inserted into the anus. The drawing is composed with bold-colored, thick-tipped markers. Page right: In this drawing, a nude man is lying down on a white sheet. There is an orange pitcher and glass by his side. Some vegetables and assorted produce are on his other side. The tattoo on his chest is of a graveyard. The tattoo on his stomach is of a bird with a snake in its mouth. His left arm supports their head while the right arm encircles an erect penis. A green pickle is positioned between the legs near the anus. The drawing is composed with bold-colored, thick-tipped markers." style="width:80%" onclick="openModal();currentSlide(2)" class="hover-shadow">
+    <img src="Final/Patient%20O2.png" alt="Page left: In this drawing, between a pair of spreadeagled thighs, a hand encircles an erect penis while a green pickle is inserted into the anus. The drawing is composed with bold-colored, thick-tipped markers. Page right: In this drawing, a nude man is lying down on a white sheet. There is an orange pitcher and glass by his side. Some vegetables and assorted produce are on his other side. The tattoo on his chest is of a graveyard. The tattoo on his stomach is of a bird with a snake in its mouth. His left arm supports their head while the right arm encircles an erect penis. A green pickle is positioned between the legs near the anus. The drawing is composed with bold-colored, thick-tipped markers." style="width:80%" onclick="openModal();hideStuff();currentSlide(2)" class="hover-shadow">
   </div>
   <div class="column">
     <img src="Final/Patient%20O3.png" alt= "Page Left: FROM THE EDITORS
@@ -112,7 +121,7 @@ We’re grateful to Echo Theohar and Xin Xin of Feminist Pornographic Collective
 
 xoxo Hyunjee NIcole Kim and Dana Kopel
 
-*Email us: patient.oh@gmail.com." style="width:80%" onclick="openModal();currentSlide(3)" class="hover-shadow">
+*Email us: patient.oh@gmail.com." style="width:80%" onclick="openModal();hideStuff();currentSlide(3)" class="hover-shadow">
   </div>
   <div class="column">
     <img src="Final/Patient%20O4.png" alt=" Page left: My Insurance Fucks Me
@@ -148,7 +157,7 @@ You pulse green, lighting up the whole room.
 
 Acceptable for further procedures.
 
-I moan and smile." style="width:80%" onclick="openModal();currentSlide(4)" class="hover-shadow">
+I moan and smile." style="width:80%" onclick="openModal();hideStuff();currentSlide(4)" class="hover-shadow">
   </div>
      <div class="column">
     <img src="Final/Patient%20O5.png" alt="Page left: You slither down to my hips. Compress. Pause. Compress. Pause. Compress. Pause. Pause. Pause. More moaning from me. You split off part of yourself. Smaller segments of you make their ways up my arm, cut through my robe, and attach to my inner elbow.
@@ -157,7 +166,7 @@ My dick is opened, the incision making me start to yell, cut short when the line
 
 I return, panting, only to have you begin vibrating my cunt, dilating, adding more ports. I scream. Flail. Tear at my hair. Screaming. I am gone in all of this. Finally you slow down. You flash red at me, the time appears inside your body. 8:00 AM. Time to leave for work.
                                            
-Page right: Two photographic images are collaged into this work. On top, a pale green Napa cabbage has been sliced in half vertically and is displayed frontally so that its nested layers are visible; it looks kind of like a vagina. The background is an abstract pattern composed of bright orange cheese puffs." style="width:80%" onclick="openModal();currentSlide(5)" class="hover-shadow">
+Page right: Two photographic images are collaged into this work. On top, a pale green Napa cabbage has been sliced in half vertically and is displayed frontally so that its nested layers are visible; it looks kind of like a vagina. The background is an abstract pattern composed of bright orange cheese puffs." style="width:80%" onclick="openModal();hideStuff();currentSlide(5)" class="hover-shadow">
   </div>
      <div class="column">
     <img src="Final/Patient%20O6.png" alt="Page left: Arms, Legs, Fingers
@@ -165,7 +174,7 @@ By Colleen Asper
 
 The images and text are from a show of paintings and a performance by Colleen Asper. For the performance, rectangular forms inserted into the artist's vagina were cut out of her paintings and covered with curtains, turning the vulva into a frame for a stage. The paintings-turned-stages hung on freestanding walls allowing her to perform through the paintings with her limbs.
                                            
-Page right: A larger-than-life, photorealistic image of a vulva hangs on a gray wall in this installation shot. A shiny monochrome curtain extends out from the vagina. Beneath it, a sliver of the wall’s wooden supports is visible." style="width:80%" onclick="openModal();currentSlide(6)" class="hover-shadow">
+Page right: A larger-than-life, photorealistic image of a vulva hangs on a gray wall in this installation shot. A shiny monochrome curtain extends out from the vagina. Beneath it, a sliver of the wall’s wooden supports is visible." style="width:80%" onclick="openModal();hideStuff();currentSlide(6)" class="hover-shadow">
   </div>
      <div class="column">
     <img src="Final/Patient%20O7.png" alt="Page left: One long wall of the yoga studio was made up of a row of four-foot by eight-foot mirrors crossed by a ballet bar, the other a sprawling storage rack made out of PVC tubes. Several of the tubes had slipped from their joiners, skewing the rack and leaving exercise balls rolling along the floor. The yoga teacher paced in front of the class, her reflection moving across each of her students in the mirror.
@@ -178,7 +187,7 @@ Lily pictured a unicorn. She didn’t have any particular connection to unicorns
 
 Lily bent her arms. The tiny unicorn waited expectantly underneath her torso. 
                                            
-Page right: A larger-than-life, photorealistic image of a vulva hangs on a gray wall in this frontal installation shot. A shiny monochrome curtain is draped over the vaginal opening, and two white legs—one in a frilly yellow ankle sock, the other in a white, knee-high athletic sock—extend directly out from under it." style="width:80%" onclick="openModal();currentSlide(7)" class="hover-shadow">
+Page right: A larger-than-life, photorealistic image of a vulva hangs on a gray wall in this frontal installation shot. A shiny monochrome curtain is draped over the vaginal opening, and two white legs—one in a frilly yellow ankle sock, the other in a white, knee-high athletic sock—extend directly out from under it." style="width:80%" onclick="openModal();hideStuff();currentSlide(7)" class="hover-shadow">
   </div>
     <div class="column">
     <img src="Final/Patient%20O8.png" alt="Page left: The last year of elementary school, Lily’s best friend moved away and she spent all of her time with Jamie, a neighborhood girl who was a year older. Jamie was not as smart as Lily but she was already in middle school and looked for every opportunity to test Lily. Sometimes Jamie’s tests were obvious. 
@@ -195,7 +204,7 @@ Other times, the tests were more ambiguous. Neither girl was allowed to walk to 
 
 The afternoon light began to fade and Lily knew they couldn’t go to the park now but still Jamie insisted they would. Lily felt foolish for ever having believed her.  
                                            
-Page right: A larger-than-life, photorealistic image of a vulva hangs on a gray wall in this installation shot, viewed at an angle. A shiny monochrome curtain is draped over the vaginal opening, and two white legs—one in a frilly yellow ankle sock, the other in a white, knee-high athletic sock—extend out from under it, crossed demurely." style="width:80%" onclick="openModal();currentSlide(8)" class="hover-shadow">
+Page right: A larger-than-life, photorealistic image of a vulva hangs on a gray wall in this installation shot, viewed at an angle. A shiny monochrome curtain is draped over the vaginal opening, and two white legs—one in a frilly yellow ankle sock, the other in a white, knee-high athletic sock—extend out from under it, crossed demurely." style="width:80%" onclick="openModal();hideStuff();currentSlide(8)" class="hover-shadow">
   </div>
     <div class="column">
     <img src="Final/Patient%20O9.png" alt="Page left:Jamie was developing breasts and spent so much time looking through the bras in a JCPenney catalogue that her mom began to make jokes about it. She talked about boys at school and wanted to practice with Lily for when they had boyfriends. She tried to make Lily pretend to be the boy, but Lily didn’t know how and finally Jamie grew impatient and said she would be the boy.  
@@ -204,7 +213,7 @@ They were in Jamie’s parents’ room with the drapes closed; the sunlight made
 
 She put her hand over Lily ’s mouth and began to kiss the back of her hand. Lily felt a warm throbbing where her breasts had been. At first this was exciting and she wished Jamie would touch her chest again, then she began to feel that the hand over her mouth was smothering her and wished Jamie would move. Not only could she not feel Jamie’s lips, soon she couldn’t feel her own. She imagined Jamie’s hand sinking into her head without resistance, landing on the pillow underneath and severing her spinal column.
                                            
-Page right: In this installation shot, two artworks are displayed. On the left side of the image, in the foreground, a larger-than-life, photorealistic image of a vulva hangs on a gray wall with a shiny monochrome curtain draped over the vaginal opening; a thin white leg, bent at the knee, extends out from under it as though the curtain is a skirt. In the background, another enlarged image of a vulva hangs on a pale pink wall; in the vaginal opening of this one is a blurry square image of what appears to be several trees" style="width:80%" onclick="openModal();currentSlide(9)" class="hover-shadow">
+Page right: In this installation shot, two artworks are displayed. On the left side of the image, in the foreground, a larger-than-life, photorealistic image of a vulva hangs on a gray wall with a shiny monochrome curtain draped over the vaginal opening; a thin white leg, bent at the knee, extends out from under it as though the curtain is a skirt. In the background, another enlarged image of a vulva hangs on a pale pink wall; in the vaginal opening of this one is a blurry square image of what appears to be several trees" style="width:80%" onclick="openModal();hideStuff();currentSlide(9)" class="hover-shadow">
   </div>
     <div class="column">
     <img src="Final/Patient%20O10.png" alt="Page left:“As you lower, keep your chin slightly tucked to keep the back of your neck long,” said the yoga teacher. 
@@ -235,7 +244,7 @@ feel free with me
 all over just 
 one good molar 
 
- " style="width:80%" onclick="openModal();currentSlide(10)" class="hover-shadow">
+ " style="width:80%" onclick="openModal();hideStuff();currentSlide(10)" class="hover-shadow">
   </div>
     <div class="column">
     <img src="Final/Patient%20O11.png" alt="Page left: Books I’d like to Fuck No. 1
@@ -250,7 +259,7 @@ Page right:I ask my quarantine creamlord to read me some of the text facing the 
 Now they are marching through a field of tall flowers. The orange-yellow tufts bend over above their heads. When the women stumble against the stalks pollen falls from the shaken pistils in great quantity. . . . The hermaphrodis is a flower that gives off an overpowering perfume. Among the marchers some can no longer keep up. They fall on their knees, they let themselves sink to the ground, head dropping, body like a gun-dog’s. Or else they writhe with their arms, they cry out . . . they advance into the forest, between the stiff woody stems, faces caught in the sun, covered by the pollen.*
  
 I imagine their names again. I stack piles of books in between cream. Books with jelly dripping out between the pages. Sardines and garlic oil all over the floor. I smash the stacks of books into a mangled mess, we are all no longer books or names or cooked fruit, just piles of ashes. 
-" style="width:80%" onclick="openModal();currentSlide(11)" class="hover-shadow">
+" style="width:80%" onclick="openModal();hideStuff();currentSlide(11)" class="hover-shadow">
   </div>
     <div class="column">
     <img src="Final/Patient%20O12.png" alt="Page left:Ina’s Map 
@@ -262,7 +271,7 @@ One point on this map is located in the house behind the home Ina grew up in and
 Page right: A mass of squiggly black lines with no end or beginning. A small triangular form rests in an open spot near the middle of the mass.
 
 Ina put on her bandana mask and left her house to begin her nightly walk with her two dogs, Littlest and Luke. Right out the door, Ina was instantly taken aback by the extreme eeriness of the twilight. Once innocuous homes, trees, shadows all appeared to have turned to evil. They seemed to look and feel like they were trying to get her or at least were desperately auditioning for a role on the set of a horror movie. This is not a normal feeling in this town, even with the
-" style="width:80%" onclick="openModal();currentSlide(12)" class="hover-shadow">
+" style="width:80%" onclick="openModal();hideStuff();currentSlide(12)" class="hover-shadow">
   </div>
     <div class="column">
     <img src="Final/Patient%20O13.png" alt="Page left: weirdness of the county’s shutdown. Ina thought to herself as she felt her hair stand on edge and a hunted tension take over her, “It was a flower blossoming spring, not Halloween time. It’s San Diego! What is going on?!”
@@ -274,7 +283,7 @@ Ina turned for home and for a whole block back felt light, woozy and sugary like
                                             
 Nearing the end of her walk, Ina slowed down and began to reclaim shards of sanity from her panic. She ritually turned from Barabara St. onto Bermuda to stare at the house that looks like an old witch’s hat sitting on a hill on the other side of the Catalina Blvd. valley. 
 
-" style="width:80%" onclick="openModal();currentSlide(13)" class="hover-shadow">
+" style="width:80%" onclick="openModal();hideStuff();currentSlide(13)" class="hover-shadow">
   </div>
     <div class="column">
     <img src="Final/Patient%20O14.png" alt="Page left: Ever since Ina could remember she’s been drawn to and obsessed with this house. Ina was surprised it was lit up and lively. It has always appeared preserved and cared for, but at the same time abandoned and un-lived-in. This night there were people in the house. It looked like a party. Laughter, music, bits of conversation floated through the street and burrowed into Ina’s ears, like she was inside the Witch’s Hat. It was outrageously loud and jarring. The voices rattled through her head. Ina’s feeling of being so close, seeing them, hearing them together enjoying themselves while she was outside, locked out of life, compounded her loneliness. Ina felt like she could even smell someone’s perfume. Scents ran through her in phrases of musk, amber punctuated by sensuous notes of jasmine wrapped up in fennel filling her chest and lungs. Water ran down her thighs. Ina closed her eyes and ran her hands through her tangled hair, she cupped her breast and dug her fingers deep into her ribs. The smell made Ina feel turned on and unhinged. 
@@ -286,13 +295,13 @@ Ina was in direct combat with a slight UTI that became so acute on one long walk
 Ina found her dark alley, hiked up her black jersey skirt, pulled out her lady’s mantle leaves, and peed on some orange and yellow nasturtiums. Renewed and relieved, Ina was on her way to the Witch’s Hat, never to return the same. 
 Ina didn’t know it yet, but soon would: she was beginning to read the map. 
 
-" style="width:80%" onclick="openModal();currentSlide(14)" class="hover-shadow">
+" style="width:80%" onclick="openModal();hideStuff();currentSlide(14)" class="hover-shadow">
   </div>
     <div class="column">
-    <img src="Final/Patient%20O15.png" alt="Page left: A woman (the artist) sits on a black leather stool with clear plastic legs against a solid yellow background. She has pale skin, a high ponytail of black hair, and dark eye makeup. She is wearing a black thong, red thigh-high stockings, black-and-clear pumps with enormous platform heels, and a white surgical mask. She tilts her head back towards one shoulder. Her hands, which are covered by gray disposable gloves with fake nails attached, press down on and cover her breasts. Page right: he artist poses topless facing the camera against a black background. On her face she wears a large black gas mask; beneath it, she has on a shaggy white wig and sparkly purple eye makeup" style="width:80%" onclick="openModal();currentSlide(15)" class="hover-shadow">
+    <img src="Final/Patient%20O15.png" alt="Page left: A woman (the artist) sits on a black leather stool with clear plastic legs against a solid yellow background. She has pale skin, a high ponytail of black hair, and dark eye makeup. She is wearing a black thong, red thigh-high stockings, black-and-clear pumps with enormous platform heels, and a white surgical mask. She tilts her head back towards one shoulder. Her hands, which are covered by gray disposable gloves with fake nails attached, press down on and cover her breasts. Page right: he artist poses topless facing the camera against a black background. On her face she wears a large black gas mask; beneath it, she has on a shaggy white wig and sparkly purple eye makeup" style="width:80%" onclick="openModal();hideStuff();currentSlide(15)" class="hover-shadow">
   </div>
     <div class="column">
-    <img src="Final/Patient%20O16.png" alt="Page left: Against a green backdrop, the artist poses so that the front of her nude body is visible from the thighs up. Her face is cast in shadow. With both hands, she peels fake skin away from each side of her abdomen to reveal a pink anatomical drawing of a reproductive system, including the vaginal canal, uterus, fallopian tubes, and ovaries. Page right: Against a green backdrop, the artist poses so that the back of her nude body is visible from the thighs up. Her face is cast in shadow and visible in profile. With each hand, she peels a panel of fake skin away from each side of her back at the waist, revealing an anatomical drawing of a spine, pelvis, kidneys, and bladder." style="width:80%" onclick="openModal();currentSlide(16)" class="hover-shadow">
+    <img src="Final/Patient%20O16.png" alt="Page left: Against a green backdrop, the artist poses so that the front of her nude body is visible from the thighs up. Her face is cast in shadow. With both hands, she peels fake skin away from each side of her abdomen to reveal a pink anatomical drawing of a reproductive system, including the vaginal canal, uterus, fallopian tubes, and ovaries. Page right: Against a green backdrop, the artist poses so that the back of her nude body is visible from the thighs up. Her face is cast in shadow and visible in profile. With each hand, she peels a panel of fake skin away from each side of her back at the waist, revealing an anatomical drawing of a spine, pelvis, kidneys, and bladder." style="width:80%" onclick="openModal();hideStuff();currentSlide(16)" class="hover-shadow">
   </div>
     <div class="column">
     <img src="Final/Patient%20O17.png" alt="Page left:yoonmin pwp
@@ -337,7 +346,7 @@ yoongi laughs. “okay.”
 
 “so,” jimin says. “did that feel good?” 
 
- " style="width:80%" onclick="openModal();currentSlide(17)" class="hover-shadow">
+ " style="width:80%" onclick="openModal();hideStuff();currentSlide(17)" class="hover-shadow">
   </div>
     <div class="column">
     <img src="Final/Patient%20O18.png" alt="Page left: “it—” yoongi pauses. “no. i mean, physically yeah. but it didn’t feel good in other ways.”
@@ -365,7 +374,7 @@ Page right: “it does feel bad. but—” yoongi licks his lips. “it’s not 
 
 “it feels safe—giving you this. knowing that you’re in control makes me feel safe.” 
 
-" style="width:80%" onclick="openModal();currentSlide(18)" class="hover-shadow">
+" style="width:80%" onclick="openModal();hideStuff();currentSlide(18)" class="hover-shadow">
   </div>
     <div class="column">
     <img src="Final/Patient%20O19.png" alt="Page left:BLACKHOLE 
@@ -374,7 +383,7 @@ By Dan Genoves
 We are in a blackhole—it’s confusing. It was confusing even before we fell in, we didn’t know that empty stretches of outer space were filled with masturbating lost space explorers like we keep running into space explorers lost from the rest of their crew in space, just maturbating by themselves, and all these different alien species all over space, like it’s a common universal issue—that ppl get lost and just masturbate in space endlessly instead of like idk trying to find their crew or writing a novel about their adventures. I’m like should we try to revive them but you’re like, “It’s no use!! They’re gone! Just leave them” it’s sad.
                                             
 Page right: Anyway so we’re kissing in the blackhole very passionately . . . so passionately that my eye falls out of my head. Then your eye falls out of your head, and they get into a relationshippy fight and yours storms off angrily while mine is apologizing and following yours . . . then our other eyes fall out, and your eye goes off to write a play, while mine starts jumping around, doing gymnastic stunts. Now our mouths fall out. But as your mouth falls out, another more essential mouth falls out, each mouth, like facial expressions that are really you, and my mouth is laying underneath your waterfall of infinite mouths, wide open swallowing + gulping down each mouth. Your eye comes back and starts performing the play it wrote and my gymnast eye sits down gleefully with anticipation and watches the play clapping and laughing amusedly frequently like an overly supportive mom or dad at a child’s first play like, “Woo!! Wow that’s my eye! We love you!” Then your playwright eye bows + hops into my socket and our relationshippy eyes finally break up and part ways “It’s over!—Good!” and your relationshippy eye hops into my socket + my eyes go into your sockets, my gymnast eye catapults both my eyes into your sockets and now our mouths switch too, so I get your last fallen most essential mouth expression for my mouth, spit up by my old open mouth and you get my mouth, but we can still control phantomly our eyes and mouths on each others faces + bring each other’s opposite heads to kiss, but in kissing now our noses fall off and my nose falls on your lap and your nose falls on my lower back, but, unaware of this, we take our clothes off and begin to masturbate each other, but my nose squirms its way into your pussy and starts flaring its nostrils and shaking + twisting around like as if a nose could actually propel itself like a fish in the ocean, inside your pussy and it’s snorting which makes your pussy queef and you’re like “hehe” . . . 
- " style="width:80%" onclick="openModal();currentSlide(19)" class="hover-shadow">
+ " style="width:80%" onclick="openModal();hideStuff();currentSlide(19)" class="hover-shadow">
   </div>
      <div class="column">
     <img src="Final/Patient%20O20.png" alt="Page left:your nose’s nostrils get very very large, one slides into my asshole + the other nostril swallows my dick, which is now completely inside this enormous balloon like nostril squirming and thrusting wildly like your nostril was incredibly horny with its own personality and attitude, fucking my dick because it cums in three huge nostril-thrusts on my dick, and when my dick asks for their phone number, the nose giggles, kisses the top of the dick + my ass cheek and gets on a skateboard and literally you never see it again (you end up getting a nose job). My nose is still in your pussy and finally it prematurely cums while it’s swimming around in your pussy but before it flops out totally drenched, you cup your hands and hold it still trapped inside your pussy and yell, “You’re not going anywhere!” and it sneezes sending us flying apart out of the blackhole into two different universes but we keep each other’s eyes + mouths, phantomly controlling them.  
@@ -390,13 +399,13 @@ BEHOLD although free and outside of the photos, both are still 2-dimensional hum
 And now, she says, we’re perfect for each other. 
 They start hugging but fold into each other and creasing folds, making a tiny paper fortune which she is holding, taking a nap. 
                                             
-    " style="width:80%" onclick="openModal();currentSlide(20)" class="hover-shadow">
+    " style="width:80%" onclick="openModal();hideStuff();currentSlide(20)" class="hover-shadow">
   </div>
      <div class="column">
-    <img src="Final/Patient%20O21.png" alt="Page left: A femme person covered in brown scaly snake skin, whose legs unravel into a long snakelike end, puts her hands up against the transparent bubble in which she is enclosed. Page right: In the three photographs of this triptych, the artist stands nude in front of a mirror, taking a selfie while wearing sunglasses and a black surgical mask with a white graphic printed on the front. The mirror has a photo of two people kissing on the right corner and a graphic print of two facial profiles, two hands, and a bouquet of flowers on the top left corner. Aromatic plants burn in the bottom corners." style="width:80%" onclick="openModal();currentSlide(21)" class="hover-shadow">
+    <img src="Final/Patient%20O21.png" alt="Page left: A femme person covered in brown scaly snake skin, whose legs unravel into a long snakelike end, puts her hands up against the transparent bubble in which she is enclosed. Page right: In the three photographs of this triptych, the artist stands nude in front of a mirror, taking a selfie while wearing sunglasses and a black surgical mask with a white graphic printed on the front. The mirror has a photo of two people kissing on the right corner and a graphic print of two facial profiles, two hands, and a bouquet of flowers on the top left corner. Aromatic plants burn in the bottom corners." style="width:80%" onclick="openModal();hideStuff();currentSlide(21)" class="hover-shadow">
   </div>
      <div class="column">
-    <img src="Final/Patient%20O22.png" alt="Page left:The continuation of the triptych. Page right:The continuation of the triptych." style="width:80%" onclick="openModal();currentSlide(22)" class="hover-shadow">
+    <img src="Final/Patient%20O22.png" alt="Page left:The continuation of the triptych. Page right:The continuation of the triptych." style="width:80%" onclick="openModal();hideStuff();currentSlide(22)" class="hover-shadow">
   </div>
      <div class="column">
     <img src="Final/Patient%20O23.png" alt="Page left: A Plumpening
@@ -434,7 +443,7 @@ Now I have to find and save all the videos I didn’t save in the past!
 
 No, no, don't give yourself another to-do. Be easy.
 
-" style="width:80%" onclick="openModal();currentSlide(23)" class="hover-shadow">
+" style="width:80%" onclick="openModal();hideStuff();currentSlide(23)" class="hover-shadow">
   </div>
      <div class="column">
     <img src="Final/Patient%20O24.png" alt="Page left: Quar
@@ -462,7 +471,7 @@ I am thirty and full and my plump grace goes to waste behind these walls.
 99% of the time I crave nothing—or, this was true in month 2. By month 5 I’ve begun to feel wasted: a plump and curving haven for nobody. Fearful of disease and death I hide, in love with my own wide-set breasts. I ride my bike around in small clothes sweating, hoping for catcalls, but the Midwest is so polite, none come. I make a haven in my own tits, eating so that they grow. Cookies, cakes, cheap ramen, lots of sleep. Cultivating my own plumpness, ass cheeks so much bigger than each hand. Firm, dimensional in the side view, heavy. Cheeks for a connoisseur, cheeks for a rookie, cheeks for lovers of cheeks ONLY. A home for myself. I have here me, inside my house, and I water me like a garden. Growing! 
 
                                             
-Page right: A watercolor painting of one person in black overalls tying the surgical mask of a blonde person wearing bright blue seated on a red striped rug. A poster of two faces taped on the wall has text that reads: “What do we work towards? The liberation from work!”" style="width:80%" onclick="openModal();currentSlide(24)" class="hover-shadow">
+Page right: A watercolor painting of one person in black overalls tying the surgical mask of a blonde person wearing bright blue seated on a red striped rug. A poster of two faces taped on the wall has text that reads: “What do we work towards? The liberation from work!”" style="width:80%" onclick="openModal();hideStuff();currentSlide(24)" class="hover-shadow">
   </div>
      <div class="column">
     <img src="Final/Patient%20O25.png" alt="Page left:Pull ‘n’ Peel
@@ -480,7 +489,7 @@ Page right: Back then there was always a leather mitt when my double-coated pink
 
 The first day of lockdown I woke up sweating, my mouth searching for something warm and soft that wasn’t there, my list of demands larger than California: a crowded train, a screaming fight, words without opposites, your hand beneath my shirt, groping for my mouths, our ribs crushed against the sticky steel edge of the bar as the bartender rolls his eyes, irritated with woman.
 
- " style="width:80%" onclick="openModal();currentSlide(25)" class="hover-shadow">
+ " style="width:80%" onclick="openModal();hideStuff();currentSlide(25)" class="hover-shadow">
   </div>
      <div class="column">
     <img src="Final/Patient%20O26.png" alt="Page left: Ferget Mi Naught
@@ -490,7 +499,7 @@ N and L knew they loved each other even though N had inherited a curse of forget
                                             
 Page right: N’s shirt to feel her soft nipples wrist strapped down under the band of a sports bra their faces tacky w cool sweat atop hot skin as they passed their tongues back n forth or stretched out like cats as wide as the forerunner would allow them eyes closed shoulder pressing on chest head pressing under chin arm wrapped around neck heat of legs piled heavy resting under thick work pants stillness except the rise and fall of chests controlled breath escaping lips a palm on the warm center of each girl a thousand years or one second later the alarm rings N crosses the street back to work as L drives out of the parking lot both wet and wanting ready if not for that damned clock swimming together in oxytocin N loses it somewhere in the middle of service between the expo yelling orders and the burn of the salamander at 1 AM she steps into the minty air and calls L over and over but L lets the phone ring fast asleep having come to the memory of their love.
 
-" style="width:80%" onclick="openModal();currentSlide(26)" class="hover-shadow">
+" style="width:80%" onclick="openModal();hideStuff();currentSlide(26)" class="hover-shadow">
   </div>
      <div class="column">
     <img src="Final/Patient%20O27.png" alt="Page left: CONTRIBUTORS
@@ -528,16 +537,23 @@ Lane Goldzser is a librarian. they live on Gabrielino/Tongva/Kizh land.
 Maryam Gunja (she/her/comrade) is a poet//organizer//doomsayer based in Brooklyn.
 
 Maya Ben David (MBD) is a Toronto-based Jewish-Iranian Anthropomorphic Airplane. Working in video, installation and performance, she creates worlds and characters that aid her ongoing exploration of anthropomorphism, cosplay and performative personas. Ben David also plays a character called MBD who is known for having multiple feuds with her many alter egos as well as the art world. Find her on YouTube @ Maya Ben David.
-" style="width:80%" onclick="openModal();currentSlide(27)" class="hover-shadow">
+" style="width:80%" onclick="openModal();hideStuff();currentSlide(27)" class="hover-shadow">
   </div>
      <div class="column">
-    <img src="Final/Patient%20O28.png" alt="Back side of a closed manila folder." style="width:35%" onclick="openModal();currentSlide(28)" class="hover-shadow">
+    <img src="Final/Patient%20O28.png" alt="Back side of a closed manila folder." style="width:35%" onclick="openModal();hideStuff();currentSlide(28)" class="hover-shadow">
   </div>
 </div>
+            
+             </div>
+        
+    
+        
+        
+        
 
 <!-- The Modal/Lightbox -->
 <div id="myModal" class="modal">
-  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <span class="close cursor" onclick="closeModal(); showStuff()">&times;</span>
   <div class="modal-content">
 
     <div class="mySlides">
@@ -547,132 +563,471 @@ Maya Ben David (MBD) is a Toronto-based Jewish-Iranian Anthropomorphic Airplane.
 
     <div class="mySlides">
       <div class="numbertext">2 / 28</div>
-      <img src="Final/Patient%20O2.png" style="width: 100%">
+      <img src="Final/Patient%20O2.png" alt="Page left: In this drawing, between a pair of spreadeagled thighs, a hand encircles an erect penis while a green pickle is inserted into the anus. The drawing is composed with bold-colored, thick-tipped markers. Page right: In this drawing, a nude man is lying down on a white sheet. There is an orange pitcher and glass by his side. Some vegetables and assorted produce are on his other side. The tattoo on his chest is of a graveyard. The tattoo on his stomach is of a bird with a snake in its mouth. His left arm supports their head while the right arm encircles an erect penis. A green pickle is positioned between the legs near the anus. The drawing is composed with bold-colored, thick-tipped markers."  style="width: 100%">
     </div>
 
     <div class="mySlides">
       <div class="numbertext">3 / 28</div>
-      <img src="Final/Patient%20O3.png" style="width: 100%">
+      <img src="Final/Patient%20O3.png" alt= "Page Left: FROM THE EDITORS
+
+We came up with the idea for this zine back in March, on one of our nightly phone calls from self-isolation within our respective homes. The two main feelings that characterized our experiences of early quarantine—horniness and depression—seemed to coalesce in a vision for a collection of coronavirus-themed erotica. And as it turned out, many of our friends and comrades were having similar quarantine feelings.
+
+The poems, stories, and artworks in Patient O work through all these feelings: desire, frustration, longing, rage, disappointment, and, of course, lust. From sexy BTS fanfic to a raunchy encounter with an insurance company, from explorations of where pleasure meets pain to a black hole full of masturbating astronauts, through sweat and rashes and UTIs and desserts and nude selfies and cabbages that look like genitals—we’re figuring out how to get off alone, together.
+
+We’re grateful to Echo Theohar and Xin Xin of Feminist Pornographic Collective Consciousness for making this zine happen, and to Random Man for support with printing and distribution. The amazing designs are by Echo (print) and Karlynne Ejercito (pdf).
+
+xoxo Hyunjee NIcole Kim and Dana Kopel
+
+*Email us: patient.oh@gmail.com."  style="width: 100%">
     </div>
 
     <div class="mySlides">
       <div class="numbertext">4 / 28</div>
-      <img src="Final/Patient%20O4.png" style="width: 100%">
+      <img src="Final/Patient%20O4.png" alt=" Page left: My Insurance Fucks Me
+By Cherry’s Three Panel Comics
+
+Content warning: needles, bottom surgery, lung/throat stuff
+
+I’m so glad you got the government contract. I was watching, biting deep into my lip, as the House voted for the Expansion of the Affordable Care Act last year and just dreaming of all the things you would do with it.
+                                           
+Page right:
+
+Now you’re my insurance. Mine. You’re crawling around my floor leaving your fine floor trail of slippery white ooze. I change into my short silk robe. My toes cold against the false wood floor as I sit and watch you. I rub my thighs together as your form squelches closer.
+
+You leap onto my face as soon as I say “please.” A splatter pattern across my mouth and nose. Harden into a paste. Thick. Constrict. Tighten. Compress on my lips. Push into my mouth and nostrils. Playing with my tongue, toying, until you push me away. Reach deep into my lungs. Deep, past my trachea, spreading out and stretching each alveolus.
+
+You pause, letting me gasp, pulling me down by the inside of my throat. I know what you want, and I comply. Of course. I display my tax return, uncontrollably drooling all over it.
+
+You glance.
+
+You convulse.
+
+You push straight back into my lungs.
+
+Pulling in and out. Stroking my diaphragm. The rush of oxygen fills me as you force an opening in my mouth. Wishing it was bright red for the effect. Arching myself backwards, pulling my sheet off the bed. My medications clattering onto the floor.
+
+But suddenly you withdraw again.
+
+Back into my mouth, circle. Circle around. Teasing. Unbearable. And shoot strawberry Ensure down into me. And shoot again. Pulsing shots of the thick liquid. I fight back, pushing to where I’ve learned to be your softest spot. More liquid comes, spilling out of my mouth. Running down my chin.
+
+You push yourself out of me. Curl around my face, constricting and crawling. I lay dazed. Attempting to caress you. The feeling of you overwhelming. You measure my weight, my muscles, my BMI.
+
+You pulse green, lighting up the whole room.
+
+Acceptable for further procedures.
+
+I moan and smile." style="width: 100%">
     </div>
       
         <div class="mySlides">
       <div class="numbertext">5 / 28</div>
-      <img src="Final/Patient%20O5.png" style="width: 100%">
+      <img src="Final/Patient%20O5.png"  alt="Page left: You slither down to my hips. Compress. Pause. Compress. Pause. Compress. Pause. Pause. Pause. More moaning from me. You split off part of yourself. Smaller segments of you make their ways up my arm, cut through my robe, and attach to my inner elbow.
+
+My dick is opened, the incision making me start to yell, cut short when the lines are advanced into my arm. Immunoglobulin filling me. My cunt is rearranged. My blood rearranged. My eyes roll back.
+
+I return, panting, only to have you begin vibrating my cunt, dilating, adding more ports. I scream. Flail. Tear at my hair. Screaming. I am gone in all of this. Finally you slow down. You flash red at me, the time appears inside your body. 8:00 AM. Time to leave for work.
+                                           
+Page right: Two photographic images are collaged into this work. On top, a pale green Napa cabbage has been sliced in half vertically and is displayed frontally so that its nested layers are visible; it looks kind of like a vagina. The background is an abstract pattern composed of bright orange cheese puffs." style="width: 100%">
     </div>
       
         <div class="mySlides">
       <div class="numbertext">6 / 28</div>
-      <img src="Final/Patient%20O6.png" style="width: 100%">
+      <img src="Final/Patient%20O6.png" alt="Page left: Arms, Legs, Fingers
+By Colleen Asper
+
+The images and text are from a show of paintings and a performance by Colleen Asper. For the performance, rectangular forms inserted into the artist's vagina were cut out of her paintings and covered with curtains, turning the vulva into a frame for a stage. The paintings-turned-stages hung on freestanding walls allowing her to perform through the paintings with her limbs.
+                                           
+Page right: A larger-than-life, photorealistic image of a vulva hangs on a gray wall in this installation shot. A shiny monochrome curtain extends out from the vagina. Beneath it, a sliver of the wall’s wooden supports is visible." style="width: 100%">
     </div>
       
         <div class="mySlides">
       <div class="numbertext">7 / 28</div>
-      <img src="Final/Patient%20O7.png" style="width: 100%">
+      <img src="Final/Patient%20O7.png" alt="Page left: One long wall of the yoga studio was made up of a row of four-foot by eight-foot mirrors crossed by a ballet bar, the other a sprawling storage rack made out of PVC tubes. Several of the tubes had slipped from their joiners, skewing the rack and leaving exercise balls rolling along the floor. The yoga teacher paced in front of the class, her reflection moving across each of her students in the mirror.
+
+“In plank pose, roll your shoulders back and tilt your pelvic bowl forward to take the curve out of the small of your back. You should be in one straight line from the crown of your head to your heel. Now the only thing that is going to move is your arms as you lower halfway down. Not yet, not yet—stay in plank pose. I want you to imagine your favorite animal.”  
+
+Lily pictured a unicorn. She didn’t have any particular connection to unicorns, she didn’t have an affinity with any animals really—that was what prompted her to choose an imaginary one. It wasn’t the unicorn’s positive attributes that attracted her, its innocence or untamed magic, but rather its most glaring negative quality—it isn’t.  
+
+“This animal is underneath your torso. Now, as you lower from plank pose into vinyasa, try not to crush your favorite animal.”  
+
+Lily bent her arms. The tiny unicorn waited expectantly underneath her torso. 
+                                           
+Page right: A larger-than-life, photorealistic image of a vulva hangs on a gray wall in this frontal installation shot. A shiny monochrome curtain is draped over the vaginal opening, and two white legs—one in a frilly yellow ankle sock, the other in a white, knee-high athletic sock—extend directly out from under it." style="width: 100%">
     </div>
       
         <div class="mySlides">
       <div class="numbertext">8 / 28</div>
-      <img src="Final/Patient%20O8.png" style="width: 100%">
+      <img src="Final/Patient%20O8.png" alt="Page left: The last year of elementary school, Lily’s best friend moved away and she spent all of her time with Jamie, a neighborhood girl who was a year older. Jamie was not as smart as Lily but she was already in middle school and looked for every opportunity to test Lily. Sometimes Jamie’s tests were obvious. 
+
+When Lily was following her up the steps of the basement, Jamie abruptly stopped and blocked her way. “What’s five times twenty-three?” she said.  
+
+“One hundred and fifteen.”
+
+“What’s thirteen times twelve?”
+
+Lily answered each time as quickly as she could, and when she didn’t know the answer, she made it up. That Lily might lie seemed never to have occurred to Jamie, who was first annoyed and then amazed at her friend’s ability to do multiplication in her head.  Forgetting that her questions had been intended to humiliate Lily, Jamie went to get her mom to show off Lily’s trick. Jamie’s mom also seemed not to notice when Lily made up an answer.  
+
+Other times, the tests were more ambiguous. Neither girl was allowed to walk to the park without an adult, but after Jamie turned twelve she thought her parents would change their minds, and one day she told Lily to wait on the front lawn while she asked. When Jamie came out she asked Lily to guess what her parents had said. Lily couldn’t read her friend’s expression. First she guessed no, then yes, then no again as Jamie remained inscrutable. She told Lily they had said yes, but that they couldn’t leave just yet, then she admitted that they had said no, before trying again to convince Lily they had said yes.
+
+The afternoon light began to fade and Lily knew they couldn’t go to the park now but still Jamie insisted they would. Lily felt foolish for ever having believed her.  
+                                           
+Page right: A larger-than-life, photorealistic image of a vulva hangs on a gray wall in this installation shot, viewed at an angle. A shiny monochrome curtain is draped over the vaginal opening, and two white legs—one in a frilly yellow ankle sock, the other in a white, knee-high athletic sock—extend out from under it, crossed demurely." style="width: 100%">
     </div>
       
         <div class="mySlides">
       <div class="numbertext">9 / 28</div>
-      <img src="Final/Patient%20O9.png" style="width: 100%">
+      <img src="Final/Patient%20O9.png" alt="Page left:Jamie was developing breasts and spent so much time looking through the bras in a JCPenney catalogue that her mom began to make jokes about it. She talked about boys at school and wanted to practice with Lily for when they had boyfriends. She tried to make Lily pretend to be the boy, but Lily didn’t know how and finally Jamie grew impatient and said she would be the boy.  
+
+They were in Jamie’s parents’ room with the drapes closed; the sunlight made bright pink shapes when it showed through the heavy tan fabric, but the light exhausted itself there, leaving the rest of the room dim and dusty. Jamie took Lily’s shirt off on the big, adult bed. She ran her hand along Lily’s chest. “It’s so flat,” she said.  Lily didn’t know what to say. Jamie was quiet for a while and then seemed to come to a solution that satisfied her: “I’m a serial killer and I cut off your breasts in a fit of passion.”  
+
+She put her hand over Lily ’s mouth and began to kiss the back of her hand. Lily felt a warm throbbing where her breasts had been. At first this was exciting and she wished Jamie would touch her chest again, then she began to feel that the hand over her mouth was smothering her and wished Jamie would move. Not only could she not feel Jamie’s lips, soon she couldn’t feel her own. She imagined Jamie’s hand sinking into her head without resistance, landing on the pillow underneath and severing her spinal column.
+                                           
+Page right: In this installation shot, two artworks are displayed. On the left side of the image, in the foreground, a larger-than-life, photorealistic image of a vulva hangs on a gray wall with a shiny monochrome curtain draped over the vaginal opening; a thin white leg, bent at the knee, extends out from under it as though the curtain is a skirt. In the background, another enlarged image of a vulva hangs on a pale pink wall; in the vaginal opening of this one is a blurry square image of what appears to be several trees" style="width: 100%">
     </div>
       
         <div class="mySlides">
       <div class="numbertext">10 / 28</div>
-      <img src="Final/Patient%20O10.png" style="width: 100%">
+      <img src="Final/Patient%20O10.png" alt="Page left:“As you lower, keep your chin slightly tucked to keep the back of your neck long,” said the yoga teacher. 
+
+Lily lowered herself until her elbows grazed her ribs. Suddenly, she was pierced through the chest by the unicorn’s horn. Its point seemed to drive into a knot in her very core. Her shoulder blades released from her back, letting her arms slide out and roll along the floor with the exercise balls. The weight of her torso dropping seemed to loosen her legs; now the space between her pelvis and thighs was infinite, swallowing the whole room. Her head shattered and everything went black. Only the unicorn remained, prancing though the vast space of the unknown.  
+
+Page right: DSL
+By Maryam Gunja 
+
+no matter what i say
+my teeth are always touching 
+teeth that might as well live 
+in the brain, 
+can’t you tell 
+when i agree to play 
+your unsuspecting goon 
+laid up on the internet 
+i fake them as a line 
+cause im bony and i matter 
+without a single organ doing 
+the real work of nerves 
+that overheat your rented modem and 
+finish you off sideways and 
+hold your wrists to the door 
+but next time i’d rather you 
+not smell like the earth or 
+feel free with me 
+all over just 
+one good molar" style="width: 100%">
     </div>
       
         <div class="mySlides">
       <div class="numbertext">11 / 28</div>
-      <img src="Final/Patient%20O11.png" style="width: 100%">
+      <img src="Final/Patient%20O11.png" alt="Page left: Books I’d like to Fuck No. 1
+By Isa Knafo
+ 
+My lover, a baked Alaska I sit on, all flaming meringue and ice cream, carries a book around with them wherever they go. When they wake up they read, when they get back in bed they read more. They read throughout the day. They lie with the book for hours before they go to sleep. I catch a glimpse of a page: a block of text, all caps ancient sounding names > forgotten/hated women > the maligned speak clearly as when they walked the earth > recitation > oracles > channels > the light that lights the light, the most generative darkness/only place worth surviving in. A river fills with babies, they move into our house, all the houses now connect, we will come to understand passages we never thought to look for before.
+ 
+The blocks of names repeat every so often in the book. The growing lists of names makes me dizzy.
+                                            
+Page right:I ask my quarantine creamlord to read me some of the text facing the names. A passage:
+ 
+Now they are marching through a field of tall flowers. The orange-yellow tufts bend over above their heads. When the women stumble against the stalks pollen falls from the shaken pistils in great quantity. . . . The hermaphrodis is a flower that gives off an overpowering perfume. Among the marchers some can no longer keep up. They fall on their knees, they let themselves sink to the ground, head dropping, body like a gun-dog’s. Or else they writhe with their arms, they cry out . . . they advance into the forest, between the stiff woody stems, faces caught in the sun, covered by the pollen.*
+ 
+I imagine their names again. I stack piles of books in between cream. Books with jelly dripping out between the pages. Sardines and garlic oil all over the floor. I smash the stacks of books into a mangled mess, we are all no longer books or names or cooked fruit, just piles of ashes. 
+" style="width: 100%">
     </div>
       
         <div class="mySlides">
       <div class="numbertext">12 / 28</div>
-      <img src="Final/Patient%20O12.png" style="width: 100%">
+      <img src="Final/Patient%20O12.png" alt="Page left:Ina’s Map 
+By Sarah Harron 
+There is a map of an earthly body that points the way to the places of pure pleasure and enjoyment for all senses, many more than just the five. For some who understand it well, it is a literal map. For those who know it better, they chart their accidents, coincidences, instincts, desires, brute urges, magnetisms and through this very subtle, sophisticated astrolabe they are able to possess all of it and everything else in between. 
+One point on this map is located in the house behind the home Ina grew up in and where she has now found herself sheltering and living again indefinitely with her mom, Nora, during a pandemic. 
+
+                                            
+Page right: A mass of squiggly black lines with no end or beginning. A small triangular form rests in an open spot near the middle of the mass.
+
+Ina put on her bandana mask and left her house to begin her nightly walk with her two dogs, Littlest and Luke. Right out the door, Ina was instantly taken aback by the extreme eeriness of the twilight. Once innocuous homes, trees, shadows all appeared to have turned to evil. They seemed to look and feel like they were trying to get her or at least were desperately auditioning for a role on the set of a horror movie. This is not a normal feeling in this town, even with the
+" style="width: 100%">
     </div>
       
         <div class="mySlides">
       <div class="numbertext">13 / 28</div>
-      <img src="Final/Patient%20O13.png" style="width: 100%">
+      <img src="Final/Patient%20O13.png" alt="Page left: weirdness of the county’s shutdown. Ina thought to herself as she felt her hair stand on edge and a hunted tension take over her, “It was a flower blossoming spring, not Halloween time. It’s San Diego! What is going on?!”
+Ina’s hometown, cleverly named Ocean Beach, is a sleepy Southern California town full of flip-flops, craft beer, surf culture. Gothic or eerie are not words generally used to describe OB. Mostly Ina’s neighborhood is beautiful, peaceful to the point of suffocating boredom. It’s not famed for being edgy or teeming with demonic energy unless you count its military complex—but it wasn’t helicopters, sonic booms, or steel muscles that disturbed this night. 
+Ina couldn’t make sense of this shift. She broke the tense stillness and said out loud to the dogs, “What’s going on tonight!? Do you guys know? Do you feel it too?” They just looked at her, happy to be out, as the creepy silence returned in mass. Ina felt like she was being stalked from everywhere. She dismissed the feeling as a paranoia from being so bored and isolated. She told herself she was making it all up in desperation for some drama. 
+                                            
+Page right: Ina debated whether she should cut her walk with the dogs short and hurry home or continue to explore this bizarre, spooky night some more. She decided to stay out and walk fast. There was an angel’s trumpet vine she wanted to visit. Ina felt like they were in a relationship. When she got to the vine, Ina first looked to see if anyone was around and then greeted it aloud: “Hello my love, may I?” She felt the flower consent as she lifted it up, caressed it with her cheek, and buried her face deeply inside. Each night its fleshy petals would caress her as its scent took over Ina’s whole being, taking her out of time, leaving her knees weak and pollen lines drawn across her face. Ina felt they were in a kind of love. 
+Ina turned for home and for a whole block back felt light, woozy and sugary like a meringue. Then once again, the eeriness of the night settled back in, to the point of a claw-like oppression. The feeling of being pursued gripped Ina so hard she struggled to reason herself out of it. Ina moved faster. 
+                                            
+Nearing the end of her walk, Ina slowed down and began to reclaim shards of sanity from her panic. She ritually turned from Barabara St. onto Bermuda to stare at the house that looks like an old witch’s hat sitting on a hill on the other side of the Catalina Blvd. valley. " style="width: 100%">
     </div>
       
         <div class="mySlides">
       <div class="numbertext">14 / 28</div>
-      <img src="Final/Patient%20O14.png" style="width: 100%">
+      <img src="Final/Patient%20O14.png" alt="Page left: Ever since Ina could remember she’s been drawn to and obsessed with this house. Ina was surprised it was lit up and lively. It has always appeared preserved and cared for, but at the same time abandoned and un-lived-in. This night there were people in the house. It looked like a party. Laughter, music, bits of conversation floated through the street and burrowed into Ina’s ears, like she was inside the Witch’s Hat. It was outrageously loud and jarring. The voices rattled through her head. Ina’s feeling of being so close, seeing them, hearing them together enjoying themselves while she was outside, locked out of life, compounded her loneliness. Ina felt like she could even smell someone’s perfume. Scents ran through her in phrases of musk, amber punctuated by sensuous notes of jasmine wrapped up in fennel filling her chest and lungs. Water ran down her thighs. Ina closed her eyes and ran her hands through her tangled hair, she cupped her breast and dug her fingers deep into her ribs. The smell made Ina feel turned on and unhinged. 
+Ina took a breath and reorganized her senses. She said to Littlest and Luke, “I feel crazy, but they can’t do that! We’re in quarantine. Who do they think they are? Should we get a closer look to see . . .” 
+Ina decided, despite her mind’s made-up dangers, she’d better let herself stay out and explore. Enjoy the eeriness some more. This haunted and hunted vibe was at least making Ina feel something and she thought it wise to take it for all it was worth. The types of scarcity that formed during this time cut deep into Ina’s psyche. Ina knew she needed something and she felt it coming from that house. Perhaps in that perfume. 
+                                            
+Page right:“Why not?” Ina said aloud to Littlest and Luke. “You know, it’s something to do. I just need to find a nice dark place to pee first. I didn’t need to say that out loud. Littlest. Luke. This way.” 
+Ina was in direct combat with a slight UTI that became so acute on one long walk that it scarred her with a phobia of being far from home. Ina made a decision to take command of this phobia by carrying lady’s mantle leaves in her pocket, giving up underwear, wearing loose skirts and, in case she needed to move fast, a sports bra. She could now travel as fast and as far as she liked and not even lurking monsters or a UTI could stop her. She found her new confidence and empowerment from her leaves and bra absurd, hilarious—but again these things were scarce in her life and she’d take her self-esteem where she could. 
+Ina found her dark alley, hiked up her black jersey skirt, pulled out her lady’s mantle leaves, and peed on some orange and yellow nasturtiums. Renewed and relieved, Ina was on her way to the Witch’s Hat, never to return the same. 
+Ina didn’t know it yet, but soon would: she was beginning to read the map. " style="width: 100%">
     </div>
       
         <div class="mySlides">
       <div class="numbertext">15 / 28</div>
-      <img src="Final/Patient%20O15.png" style="width: 100%">
+      <img src="Final/Patient%20O15.png" alt="Page left: A woman (the artist) sits on a black leather stool with clear plastic legs against a solid yellow background. She has pale skin, a high ponytail of black hair, and dark eye makeup. She is wearing a black thong, red thigh-high stockings, black-and-clear pumps with enormous platform heels, and a white surgical mask. She tilts her head back towards one shoulder. Her hands, which are covered by gray disposable gloves with fake nails attached, press down on and cover her breasts. Page right: he artist poses topless facing the camera against a black background. On her face she wears a large black gas mask; beneath it, she has on a shaggy white wig and sparkly purple eye makeup" style="width: 100%">
     </div>
       
         <div class="mySlides">
       <div class="numbertext">16 / 28</div>
-      <img src="Final/Patient%20O16.png" style="width: 100%">
+      <img src="Final/Patient%20O16.png"  alt="Page left: Against a green backdrop, the artist poses so that the front of her nude body is visible from the thighs up. Her face is cast in shadow. With both hands, she peels fake skin away from each side of her abdomen to reveal a pink anatomical drawing of a reproductive system, including the vaginal canal, uterus, fallopian tubes, and ovaries. Page right: Against a green backdrop, the artist poses so that the back of her nude body is visible from the thighs up. Her face is cast in shadow and visible in profile. With each hand, she peels a panel of fake skin away from each side of her back at the waist, revealing an anatomical drawing of a spine, pelvis, kidneys, and bladder." style="width: 100%">
     </div>
       
         <div class="mySlides">
       <div class="numbertext">17 / 28</div>
-      <img src="Final/Patient%20O17.png" style="width: 100%">
+      <img src="Final/Patient%20O17.png" alt="Page left:yoonmin pwp
+By booooin
+
+*excerpted from a BTS slash fic, which can be found in full here: https://archiveofourown.org/works/23971108?view_full_work=true
+
+Content warning: The porn is about consensually induced dysphoria in which a trans person has their cis partner intentionally induce feelings of dysphoria in a kink scene. This means that there is very transphobic language in this!  
+
+they’re watching tv—a documentary about the music industry out of los angeles in the early 2000s that big hit wanted all the members to watch. it was homework and when they turned it on, jimin had asked yoongi to make it more interesting for them both. yoongi ended up with his pants hanging off one ankle and spread out on jimin’s lap, jimin’s hand brushing his labia constantly and flicking his clit every now and then. 
+they’re an hour into the two-hour documentary and yoongi is overheated and frustrated beyond himself. 
+
+“play with my tits,” yoongi says and freezes.
+ 
+they don’t touch yoongi’s chest during sex. yoongi’s shirt usually stays on and, when it doesn’t, they never touch him between the stomach and the collar. 
+Page right: jimin doesn’t do it right away and yoongi is facing away from him and toward the television so he can’t see jimin’s face. then jimin’s free hand picks up yoongi’s long cotton t-shirt, slips under casually, and caresses the side of a breast. when yoongi doesn’t react, jimin smoothes just his fingertips across it, barely touching yoongi around the nipple. then jimin’s thumb brushes yoongi’s nipple. at the same time, his other hand strokes yoongi’s clit very lightly and yoongi is jerking his entire body up and whimpering. 
+the feeling isn’t entirely good. it makes yoongi’s body clench up hard. he feels anxiety twist inside of him. this is the reason why he doesn’t like being touched on the chest, doesn’t like his chest being seen at all. 
+
+jimin squeezes the breast hard and the anxiety gets worse. then jimin moves to the other side and moves the back of his hand over yoongi’s other nipple. 
+
+they’re sensitive, especially with jimin’s thumb flicking yoongi’s clit lightly and slowly, a rhythm too slow for it to even build into anything. 
+
+yoongi doesn’t know what the feeling that he’s feeling is. he knows that it’s not good but that it’s intense. 
+
+the way jimin’s playing with him, with just light touches on his tits and his cunt—it makes yoongi feel like— 
+
+—like a woman. 
+
+“time out,” says jimin. “yellow.” then his hands are gone and he moves to pause the documentary. yoongi closes his legs. “i don’t know what you want me to do.” 
+
+“sorry,” says yoongi very fast. “i’m sorry. shit, was that bad?” he knows that jimin is mostly only attracted to men. does he even like tits? yoongi’s chest has never been an issue before but they hadn’t touched it once since the first time they had sex and yoongi had set his limits. no touching his chest. he likes to keep his shirt on, unless he takes it off himself. yoongi never really considered whether jimin would be attracted to his breasts or whether ignoring them was really a service to them both. 
+
+“no, it’s not bad,” jimin says slowly. “i just don’t really know what you want me to do.” he looks at yoongi. “i thought this made you uncomfortable.” yoongi realizes with relief that he really means it.“so it’s not—” yoongi looks at jimin’s right hand, which is still wet from his cunt. “you’re not weirded out by them, are you? they don’t bother you?” 
+
+jimin pulls yoongi in so his back is against jimin’s chest. “why would your body bother me?” in jimin’s arms, yoongi relaxes. “we’ve just never done that before. it’s new. i don’t know what you want me to do,” jimin says again. “i need you to walk me through it.” 
+
+“okay,” says yoongi. “okay, yeah.” he must still sound anxious as hell because jimin cups his cheek and turns his face towards him. 
+
+“hey,” says jimin. “i’m not mad at you.” then he kisses yoongi with his lips closed, making a little popping sound with his lips when he pulls them apart. 
+
+yoongi laughs. “okay.” 
+
+“so,” jimin says. “did that feel good?” 
+
+ " style="width: 100%">
     </div>
       
         <div class="mySlides">
       <div class="numbertext">18 / 28</div>
-      <img src="Final/Patient%20O18.png" style="width: 100%">
+      <img src="Final/Patient%20O18.png" alt="Page left: “it—” yoongi pauses. “no. i mean, physically yeah. but it didn’t feel good in other ways.”
+
+“then why did you want me to do it to you?” 
+
+“i liked it,” yoongi says. “i mean, it didn’t feel good good but it also didn’t feel bad. i liked it because you were doing it to me. i liked that.” 
+
+“oh,” says jimin. there’s a pause. “wait. i don’t get it. yoongi, i don’t get it!” he says it so dramatically that they both laugh. 
+
+“my chest makes me feel really dysphoric,” says yoongi when they stop laughing. “maybe because it’s more visible or something—anyway, most of my gender panic is around my chest. letting someone touch it feels really intense. intensely dysphoric.”
+ 
+“why would you want me to make you feel dysphoric during sex?” jimin asks. he looks at yoongi and yoongi leans his head away, against his own shoulder, so he can look at jimin too. they almost laugh when they make eye contact again but end up just smiling instead. the whole situation is a little ridiculous but they’ve talked through stranger things—yoongi’s need to be degraded, jimin’s need to feel in control of his sadism by depriving yoongi of attention. they’ve spent hours analyzing what it was about power exchange that made it so hot to them both and how their kinks might align or diverge. 
+“i like that you control it,” says yoongi, realizing that it’s true as he says it. “i want to give it to you. you own everything else—my ass, my mouth, my cunt. i want you to take this too.” 
+
+jimin strokes the side of yoongi’s face. “it doesn’t feel bad?” 
+                                            
+Page right: “it does feel bad. but—” yoongi licks his lips. “it’s not new. jimin, i feel dysphoric all the time. everyday. it’s just a feeling, like shame. it doesn’t freak me out when i’m in control. i want to give you control.” 
+
+“i don’t want you to feel bad during sex,” jimin says and catches himself. both he and yoongi start laughing again. they’ve literally talked about how jimin does, in fact, want yoongi to feel bad during sex—how he wants yoongi to hurt during it and how he wants yoongi to feel pitiful during it—how he wants to make yoongi scared during it. “i don’t want you to feel dysphoric during sex.” 
+
+“i, uh, kind of feel dysphoric during sex all the time,” yoongi says slowly. “it’s just like anything else.” 
+
+“oh,” says jimin again, still smiling. “okay.” 
+
+“it feels safe—giving you this. knowing that you’re in control makes me feel safe.” 
+
+" style="width: 100%">
     </div>
       
         <div class="mySlides">
       <div class="numbertext">19 / 28</div>
-      <img src="Final/Patient%20O19.png" style="width: 100%">
+      <img src="Final/Patient%20O19.png" alt="Page left:BLACKHOLE 
+By Dan Genoves
+
+We are in a blackhole—it’s confusing. It was confusing even before we fell in, we didn’t know that empty stretches of outer space were filled with masturbating lost space explorers like we keep running into space explorers lost from the rest of their crew in space, just maturbating by themselves, and all these different alien species all over space, like it’s a common universal issue—that ppl get lost and just masturbate in space endlessly instead of like idk trying to find their crew or writing a novel about their adventures. I’m like should we try to revive them but you’re like, “It’s no use!! They’re gone! Just leave them” it’s sad.
+                                            
+Page right: Anyway so we’re kissing in the blackhole very passionately . . . so passionately that my eye falls out of my head. Then your eye falls out of your head, and they get into a relationshippy fight and yours storms off angrily while mine is apologizing and following yours . . . then our other eyes fall out, and your eye goes off to write a play, while mine starts jumping around, doing gymnastic stunts. Now our mouths fall out. But as your mouth falls out, another more essential mouth falls out, each mouth, like facial expressions that are really you, and my mouth is laying underneath your waterfall of infinite mouths, wide open swallowing + gulping down each mouth. Your eye comes back and starts performing the play it wrote and my gymnast eye sits down gleefully with anticipation and watches the play clapping and laughing amusedly frequently like an overly supportive mom or dad at a child’s first play like, “Woo!! Wow that’s my eye! We love you!” Then your playwright eye bows + hops into my socket and our relationshippy eyes finally break up and part ways “It’s over!—Good!” and your relationshippy eye hops into my socket + my eyes go into your sockets, my gymnast eye catapults both my eyes into your sockets and now our mouths switch too, so I get your last fallen most essential mouth expression for my mouth, spit up by my old open mouth and you get my mouth, but we can still control phantomly our eyes and mouths on each others faces + bring each other’s opposite heads to kiss, but in kissing now our noses fall off and my nose falls on your lap and your nose falls on my lower back, but, unaware of this, we take our clothes off and begin to masturbate each other, but my nose squirms its way into your pussy and starts flaring its nostrils and shaking + twisting around like as if a nose could actually propel itself like a fish in the ocean, inside your pussy and it’s snorting which makes your pussy queef and you’re like “hehe” . . . "  style="width: 100%">
     </div>
       
          <div class="mySlides">
       <div class="numbertext">20 / 28</div>
-      <img src="Final/Patient%20O20.png" style="width: 100%">
+      <img src="Final/Patient%20O20.png" alt="Page left:your nose’s nostrils get very very large, one slides into my asshole + the other nostril swallows my dick, which is now completely inside this enormous balloon like nostril squirming and thrusting wildly like your nostril was incredibly horny with its own personality and attitude, fucking my dick because it cums in three huge nostril-thrusts on my dick, and when my dick asks for their phone number, the nose giggles, kisses the top of the dick + my ass cheek and gets on a skateboard and literally you never see it again (you end up getting a nose job). My nose is still in your pussy and finally it prematurely cums while it’s swimming around in your pussy but before it flops out totally drenched, you cup your hands and hold it still trapped inside your pussy and yell, “You’re not going anywhere!” and it sneezes sending us flying apart out of the blackhole into two different universes but we keep each other’s eyes + mouths, phantomly controlling them.  
+                                            Page right: HELP I’M A PHOTO
+By Dan Genoves
+Now carrying this single photograph and nothing else but a sandwich he made the night before, he sits down in the park, props up the photo and eats, allocating half of his sandwich to the photo, and making conversation while eating. He is so happy to be with her. Suddenly he feels a tightening and he flops over, becoming a photograph. He can tell, and now he says, “We’re perfect for each other,” but now she is holding a photo of him. He is the one that’s a photo. What a nightmare. So he tries to speak but unfortunately she can’t hear him, she is just talking to him. 
+He finally resigns himself to this and shuts his eyes (it’s really hard to move inside of a photo, everything is slower, heavier, difficult). 
+When he opens his eyes, she is a photo again + so is he. 
+2 photos propped up each leaning against blades of grass. 
+And staring at each other trying to hop at each other but it’s too hard to move, so just staring at each other, but... 
+She notices ants can freely crawl inside of the photo, so she hops onto an ant, riding it like a donkey, turns it around using the antennae, and she heads out of the photo—successfully, so he does the same thing and they meet in the park but 
+BEHOLD although free and outside of the photos, both are still 2-dimensional human shapes like how gingerbread people look flat. 
+And now, she says, we’re perfect for each other. 
+They start hugging but fold into each other and creasing folds, making a tiny paper fortune which she is holding, taking a nap. " style="width: 100%">
     </div>
       
          <div class="mySlides">
       <div class="numbertext">21 / 28</div>
-      <img src="Final/Patient%20O21.png" style="width: 100%">
+      <img src="Final/Patient%20O21.png" alt="Page left: A femme person covered in brown scaly snake skin, whose legs unravel into a long snakelike end, puts her hands up against the transparent bubble in which she is enclosed. Page right: In the three photographs of this triptych, the artist stands nude in front of a mirror, taking a selfie while wearing sunglasses and a black surgical mask with a white graphic printed on the front. The mirror has a photo of two people kissing on the right corner and a graphic print of two facial profiles, two hands, and a bouquet of flowers on the top left corner. Aromatic plants burn in the bottom corners." style="width: 100%">
     </div>
       
          <div class="mySlides">
       <div class="numbertext">22 / 28</div>
-      <img src="Final/Patient%20O22.png" style="width: 100%">
+      <img src="Final/Patient%20O22.png" alt="Page left:The continuation of the triptych. Page right:The continuation of the triptych." style="width: 100%">
     </div>
       
          <div class="mySlides">
       <div class="numbertext">23 / 28</div>
-      <img src="Final/Patient%20O23.png" style="width: 100%">
+      <img src="Final/Patient%20O23.png" alt="Page left: A Plumpening
+Eltonya Johnya Roundsoft
+
+cw: mention of rape
+
+Sonia stared out her window waiting for something to happen. Hopelessly, no, full of hope rather, and for good reason, as last week and the week before, Chancey—her pink, shiny Pokemon neighbor—had fucked herself with that egg she keeps in her pocket. She did it while lying in the back of the pickup truck parked in her open garage. She shoved the round egg in and out of her waterfall pillowslit. She danced in chubby little knee-high boots. During this episode the Pokemon developed plump, firm, triangular tits on the front of her spherical body. Meaty little woman.
+
+It was a week ago today, this last show, and the week before that she had also made a show on a Wednesday. A skilled exhibitionist? A caring nurse, really, to offer this kind of respite. She, plump, sweet, glistening, jerked off for her neighbors stuck behind their windows.
+
+Sonia waited, hoping for this week to happen like the last. A dog walked past. A sprinkler spun. A truck rumbled by in the distance. Silence. Birds. A bike, and then! The garage door of Chancey's house began to rise, and there, inside
+her thighs
+pink fat Chancey thighs!
+lol im sorry i dont 
+lol
+im just gonna stop here i dont actually want
+this anymore
+here i sit broken hearted
+tried to fart and accidentally
+died
+and then
+i rotted
+because no one visits, no one comes by, no one leaves their little pigsties.
+                                            
+Page right: I have a stye from staring at my screen. I watch porn unenthusiastically. Here have been my phases: uncle fucks niece while she sleeps, stepdad blackmails stepdaughter for blowjob, wrestling becomes fucking, trickery, coercion. “Rape” yielded no results so I searched “force fuck,” yoga instructor force fucks student. Futanari, caring futa, lesbian doctor tricks patient. Hourlong oily handjob from the back in silence. Today I started watching “perfect tits.” They simultaneously entice and put mine to shame. They are wide and mine are narrow, or maybe rather mine are more in my armpits and these girls have them so . . . frontal, so pillowy.
+
+I often search “leader of the village arranges my marriage and forces my lowly farmer husband and I to fuck for everyone in the town square,” but it never yields any results, so I resort to the reliable “Katie gets her fat ass stuck in the play house and has to be fucked free.”
+
+I am not horny right now. I am not horny at the moment. I was only moderately horny when earlier I masturbated. Procrastination makes me horny or, I mean to say, once I start working on something important it seems an excellent time to masturbate.
+
+I created a login for Pornhub yesterday (or three days ago????) and this has revolutionized my browsing. It calms me down to click “Subscribe.” I do not like worrying about whether or not I will ever find this face again.
+
+Now I have to find and save all the videos I didn’t save in the past!
+
+No, no, don't give yourself another to-do. Be easy."  style="width: 100%">
     </div>
       
         <div class="mySlides">
       <div class="numbertext">24 / 28</div>
-      <img src="Final/Patient%20O24.png" style="width: 100%">
+      <img src="Final/Patient%20O24.png" alt="Page left: Quar
+an
+tine
+
+Let me tell you about his butthole, the man who isn’t here.
+
+virginal
+inaccessible
+between volleyball cheeks
+a serious tease. And his lips! were meant to wrap around a penis—they’re so plump, even vaginal. A tease, he’s a tease, a power bottom who doesn't like his butthole touched. Though I have a lurking suspicion it’s my own inelegance that keeps this gate closed. . . . Someone, someday, will open sesame.
+We’ve abandoned each other, we’re in different countries.
+I read him to sleep at night via Skype. Facebook Messenger. Zoom. 
+I read him Dante's Inferno, a book which makes me fear hell. 
+I am guilty of everything but murder! 
+I read to him at night and think about his balls on my face. Big hands, big balls, big boy. Grande manne, not here.
+
+Quaran Teen
+
+I am thirty and full and my plump grace goes to waste behind these walls.
+
+♪ Hail me full of menace ♪ Ay, me. Woe ♪ aye ♪ woe ♪ aye ♪
+
+99% of the time I crave nothing—or, this was true in month 2. By month 5 I’ve begun to feel wasted: a plump and curving haven for nobody. Fearful of disease and death I hide, in love with my own wide-set breasts. I ride my bike around in small clothes sweating, hoping for catcalls, but the Midwest is so polite, none come. I make a haven in my own tits, eating so that they grow. Cookies, cakes, cheap ramen, lots of sleep. Cultivating my own plumpness, ass cheeks so much bigger than each hand. Firm, dimensional in the side view, heavy. Cheeks for a connoisseur, cheeks for a rookie, cheeks for lovers of cheeks ONLY. A home for myself. I have here me, inside my house, and I water me like a garden. Growing! 
+
+                                            
+Page right: A watercolor painting of one person in black overalls tying the surgical mask of a blonde person wearing bright blue seated on a red striped rug. A poster of two faces taped on the wall has text that reads: “What do we work towards? The liberation from work!”" style="width: 100%">
     </div>
       
         <div class="mySlides">
       <div class="numbertext">25 / 28</div>
-      <img src="Final/Patient%20O25.png" style="width: 100%">
+      <img src="Final/Patient%20O25.png" alt="Page left:Pull ‘n’ Peel
+By Heather Holmes
+
+In January your mouth began appearing everywhere: on your palm, spine-adjacent, footbound. We played at dating in the week that you visited and were congratulated on our coupledom by people passing in the park. They didn’t seem to see my fingers grazing your molars, pushing back toward your throat.
+
+Last summer both of my armpits swelled with a heat and itch that nothing, salt, water, air, sex, tea tree, negligence, razors, aloe, could heal—an obscenity, a cunt appended to my shoulders. In the film strangely suited to isolation, the two women rub witch salve into one another’s armpits before and as fucking, and I remember unexpected touch and coconut oil dripping down my sides. I remember hallucinogens, remember thigh against thigh.
+
+In January, an aberration: you wouldn’t spit. Something plastic fell onto the floor, the record crackled, and you looked away, your hair covering most of your face and your hand covering the rest. I pressed myself further into you and you touched my neck but your mouth stayed closed. I wasn’t used to hearing no. By the time we realized the erotic potential of embarrassment you were back in California.
+
+The first time I remember being really looked at was in a salon chair, water dripping slowly down my neck into my cotton collar. Jess eyed me real deliberate, head-on, pulling a strand of wet hair from both the left and right sides to see if they were even. I oozed, cold metal against my skin, the slight push of her body against my shoulder, her hands always a little shaky, cooing about your hair’s so thick. Her leather jacket creaked as she pumped the chair or adjusted the position of my head. Still the smells of hair product and leather conditioner are the same to me.
+                                            
+Page right: Back then there was always a leather mitt when my double-coated pink-polish dysphoria wanted to slip into something more comfortable. The night you left for Pomona I buffed all the leather I own, removing traces of you from every item, a spit-shine. In left field I learned that, when flung with enough force, an object can strike flesh, radiate pain, produce pleasure. In quarantine I found my old baseball glove. It only needed a quick conditioning, spring-cold against my palm and soft in all the places I’d worn it smooth over time. Once opened I couldn’t close the sensation of being wrist-deep inside you, my glass case filled with trophies of untheorized desire.
+
+The first day of lockdown I woke up sweating, my mouth searching for something warm and soft that wasn’t there, my list of demands larger than California: a crowded train, a screaming fight, words without opposites, your hand beneath my shirt, groping for my mouths, our ribs crushed against the sticky steel edge of the bar as the bartender rolls his eyes, irritated with woman."  style="width: 100%">
     </div>
       
         <div class="mySlides">
       <div class="numbertext">26 / 28</div>
-      <img src="Final/Patient%20O26.png" style="width: 100%">
+      <img src="Final/Patient%20O26.png" alt="Page left: Ferget Mi Naught
+By BK
+
+N and L knew they loved each other even though N had inherited a curse of forgetting their love every time L wasn’t in front of her if they were on the clock pretending to be mere acquaintances one of them would have to break the gaze slashing through their desire to touch to be close in the produce fridge the open strawberries reminded N of L standing over her open mouth when they could synchronize N’s break with the end of L’s shift they met in L’s car parked facing the afternoon sun away from prying eyes of coworkers N with a buzz cut and L with spiky black hair both wearing stiff work shirts two sizes too big they could have been two boys caressing each other L placed her hands under
+                                            
+Page right: N’s shirt to feel her soft nipples wrist strapped down under the band of a sports bra their faces tacky w cool sweat atop hot skin as they passed their tongues back n forth or stretched out like cats as wide as the forerunner would allow them eyes closed shoulder pressing on chest head pressing under chin arm wrapped around neck heat of legs piled heavy resting under thick work pants stillness except the rise and fall of chests controlled breath escaping lips a palm on the warm center of each girl a thousand years or one second later the alarm rings N crosses the street back to work as L drives out of the parking lot both wet and wanting ready if not for that damned clock swimming together in oxytocin N loses it somewhere in the middle of service between the expo yelling orders and the burn of the salamander at 1 AM she steps into the minty air and calls L over and over but L lets the phone ring fast asleep having come to the memory of their love." style="width: 100%">
     </div>
       
         <div class="mySlides">
       <div class="numbertext">27 / 28</div>
-      <img src="Final/Patient%20O27.png" style="width: 100%">
+      <img src="Final/Patient%20O27.png"  alt="Page left: CONTRIBUTORS
+
+A.O.P. es un sondeo en Yaanga, Tovaangar recentamente licenciado en Literatura y Cultura en Español de la Universidad de California, Irvine. Podés encontrarlo en sunaccomplice.info.
+
+Cherry's Three Panel Comics is a multitude of girl viscerally and endlessly impacted by the healthcare system. We're also an amazing writer, stunning musician, total babe, single and can be reached at magentastarsystem@protonmail.com.
+
+Colleen Asper is an artist and writer. She is a member of the Red Bloom Communist Collective.
+
+booooin is a bts stan with yoongi bias and jimin wrecker. they ship yoonmin. they consider themselves a sadist stan who enjoys playing with the images of cis male idols for lesbian appreciation.
+
+BK questions the lines we stand in to buy a chicken sandwich. just because the option exists doesn't mean we should take it. trying to get to heaven from Los Angeles, CA.
+
+Dan Genoves is an erotica writer, comedian, painter, teacher, and retired mathematician from Queens, New York. He used to host and organize a monthly event called “Erotica Nite” of erotica-themed readings and performances from different writers, comedians, performers, and people at MX gallery in New York. Now he exclusively does online erotica readings.
+
+Eltonya Johnya Roundsoft is a performer, filmmaker, and erotica writer in the Midwest. She debuted her first short story, “Sonia and the Big Hairy Boys,” at Dan Genoves’s Erotica Nite in NYC in January 2020, after recovering from a (likely) bout of Covid-19. Other well-known pieces by Roundsoft include “Sonia and the Sweetest Twink” and “Coach Sonia and Her Soccer Body
+Boys.” At home she cares for one beautiful black cat with calm, angry eyes.
+
+Sarah Harron is a writer currently quarantined in San Diego. Her work is about the nooks, cracks, and places sensuality compresses, hides, and forms itself into. She wants to find what’s
+hidden, twisted and needs air, attention, touch. Her desire is also to couple fantasy with heavy, dense reality, and intertwine them so they become indistinguishable.
+                                            
+Page right: Heather Holmes is a writer and editor whose work concerns the specificities of the body and the built environment. She lives in Philadelphia.
+
+Isa Knafo wants gender maximalism and new eras of cruising.
+
+Jonathon W Cioffi is a poet and artist based in Chinatown, New York.
+
+Kamala Puligandla is a writer and editor who lives in Los Angeles. She is the Editor-in-Chief at Autostraddle.com, and her first novel Zigzags is forthcoming from a Not A Cult media in October 2020. She is well known for her contagious laugh, her willingness to have one more drink, and her easily undone heart.
+
+Kayla Noriko Tange was born in South Korea and adopted by a Japanese-American family. After high school she moved to Los Angeles where her love for poetry and photography progressed into a conceptual performance practice that incorporates elements of exotic dancing in which physical and psychic boundaries, sexuality, and permanence are recurring themes. She has performed burlesque, collaborative art, and ancestral healing at venues internationally.
+
+Lane Goldzser is a librarian. they live on Gabrielino/Tongva/Kizh land.
+
+Maryam Gunja (she/her/comrade) is a poet//organizer//doomsayer based in Brooklyn.
+
+Maya Ben David (MBD) is a Toronto-based Jewish-Iranian Anthropomorphic Airplane. Working in video, installation and performance, she creates worlds and characters that aid her ongoing exploration of anthropomorphism, cosplay and performative personas. Ben David also plays a character called MBD who is known for having multiple feuds with her many alter egos as well as the art world. Find her on YouTube @ Maya Ben David.
+" style="width: 100%">
     </div>
       
         <div class="mySlides">
@@ -686,7 +1041,7 @@ Maya Ben David (MBD) is a Toronto-based Jewish-Iranian Anthropomorphic Airplane.
 
     <!-- Caption text -->
     <div class="caption-container">
-      <p id="caption"></p>
+      <p id="caption"> </p>
     </div>
 
   </div>
